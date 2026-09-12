@@ -4,9 +4,11 @@ Hi, I’m Tim. I’m building [Autonomy](https://github.com/autnmy): determinist
 
 ### Descant
 
-Descant works through the engineering issues you make eligible in your GitHub repository. It plans changes, implements them, opens pull requests, and works with a separate reviewer until the work is approved. You set the scope, priorities, and merge rules. It continuously learns at both the repository and system level; support for other issue trackers and repository hosts is on the roadmap.
+Descant builds and improves entire codebases over sustained, long-horizon work, merge by merge. Starting from the goals and issues you make eligible in GitHub, it decomposes larger efforts into right-sized tasks, plans and implements changes, and moves small, focused pull requests through independent review. You set the scope, priorities, and merge rules.
 
-We’re building for the full software development lifecycle and work that spans many changes: preserving architectural intent, making dependencies explicit, checking correctness, and maintaining code for the long term. Disciplined engineering and rigorous review are part of the workflow, including review across models from different vendors.
+As the work reveals missing requirements, unfinished edges, or technical debt, Descant captures them as follow-up issues and systematically works through those within its authorized scope. Each merge advances the product and leaves a stronger foundation for the next change. It continuously learns at both the repository and system level, carrying architectural decisions and lessons forward across the software development lifecycle. Disciplined engineering, review across models from different vendors, and code built for long-term maintenance are fundamental to that process.
+
+Support for other issue trackers and repository hosts is on the roadmap.
 
 **Original published evaluation: 633 / 731 tasks resolved on SWE-bench Pro’s public split — 86.59%.** The [results repository](https://github.com/autnmy/descant-swebench-pro-results) contains patches, recorded grades, and evaluation instructions. The Descant runtime remains proprietary.
 
