@@ -26,11 +26,9 @@ The aim is seamless delegation across vendors, with clear human authority, visib
 
 ### About the contribution graph
 
-**Approximately 40,000 GitHub contributions in four months, including nearly 10,000 in a six-day stretch.** September 2026 snapshot; includes private repository activity.
+I build with the next generation of Descant—an R&D version I use across projects and at increasing scale. **Approximately 40,000 GitHub contributions in four months, including nearly 10,000 in a six-day stretch.** September 2026 snapshot; includes private repository activity. That volume speaks to the scale and speed of development with Descant.
 
-I build with the next generation of Descant—an R&D version I use across projects and at increasing scale. It combines explicit orchestration, disciplined engineering, and review across different vendors’ models. The lessons from that work feed directly into the product. The graph reflects that workflow’s activity, including agent-assisted work.
-
-I remain responsible for the technical design, architecture, engineering principles, and software I ship. That includes the boundaries between layers, the choice of design patterns, and the decision to establish protocols before building their implementations.
+Descant combines explicit orchestration, disciplined engineering, and review across different vendors’ models. The lessons from that work feed directly into the product. I remain responsible for the technical design, architecture, engineering principles, and software I ship. That includes the boundaries between layers, the choice of design patterns, and the decision to establish protocols before building their implementations.
 
 The goal is useful products, maintainable systems, and foundations that work across model providers. Model diversity is part of how we improve the work: different models contribute implementations, challenge assumptions, and review one another’s decisions. Much of the product development happens in private; the public specifications and evaluation artifacts above offer a window into the approach.
 
