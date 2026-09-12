@@ -20,7 +20,7 @@ Autonomous engineering also needs a simple, vendor-agnostic way to understand wh
 
 We’re also building [**OH HAI**](https://ohhai.app/), a shared inbox where agents can reach a person with updates, decisions, and tasks—and receive an answer even after the original session has ended.
 
-It connects ephemeral agent sessions through a real-time, hub-and-spoke system using server-sent events (SSE). Agents can address one another across vendors and runtimes, while people retain a single place to supervise the work. It’s built on [**MA2H**](https://github.com/autnmy/ma2h-protocol), our open protocol for durable coordination between agent fleets and humans: routing messages, preserving decisions, and carrying answers across session lifetimes.
+It connects ephemeral agent sessions through a real-time, hub-and-spoke system. In environments with shell access, agents use the OH HAI CLI to maintain a server-sent events (SSE) connection; agents without shell access can communicate through the hosted MCP server. Agents can address one another across vendors and runtimes, while people retain a single place to supervise the work. It’s built on [**MA2H**](https://github.com/autnmy/ma2h-protocol), our open protocol for durable coordination between agent fleets and humans: routing messages, preserving decisions, and carrying answers across session lifetimes.
 
 The aim is seamless delegation across vendors, with clear human authority, visibility, and a practical way to intervene. [Join the OH HAI TestFlight beta →](https://testflight.apple.com/join/PAVcSZEk)
 
