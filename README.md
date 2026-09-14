@@ -1,8 +1,12 @@
+[![Autonomy — Making frontier models more capable and more dependable.](https://meetautonomy.com/assets/og-image.jpg?v=2)](https://meetautonomy.com/)
+
 Hi, I’m Tim. I’m building [Autonomy](https://github.com/autnmy): deterministic control planes around frontier models that enable fully autonomous operations that are more capable, reliable, and are production-grade.
 
 **Our main project is [Descant](https://descant.run/), a fully autonomous software engineering system.** My engineering background includes Shopify, Amazon, and Boulevard. I spent about a decade at Shopify, working across a wide range of its systems and infrastructure as it grew from roughly 50 engineers to a company of more than 11,000 people.
 
 ### Descant
+
+[![Descant — 86.59% on SWE-bench Pro.](https://descant.run/og-image.png)](https://descant.run/)
 
 Descant builds and improves entire codebases over sustained, long-horizon work, merge by merge. Starting from the goals and issues you make eligible in GitHub, it decomposes larger efforts into right-sized tasks, plans and implements changes, and moves small, focused pull requests through independent review. You set the scope, priorities, and merge rules.
 
