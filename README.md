@@ -1,16 +1,16 @@
 [![Autonomy — Making frontier models more capable and more dependable.](https://meetautonomy.com/assets/og-image.jpg?v=2)](https://meetautonomy.com/)
 
-Hi, I’m Tim. I’m building [Autonomy](https://github.com/autnmy): deterministic control planes around frontier models that enable fully autonomous operations that are more capable, reliable, and are production-grade.
+Hi, I’m Tim. I’m building [Autonomy](https://github.com/autnmy): deterministic control planes around frontier models for fully autonomous operations that are capable, reliable, and production-grade.
 
-**Our main project is [Descant](https://descant.run/), a fully autonomous software engineering system.** My engineering background includes Shopify, Amazon, and Boulevard. I spent about a decade at Shopify, working across a wide range of its systems and infrastructure as it grew from roughly 50 engineers to a company of more than 11,000 people.
+**Our main project is [Descant](https://descant.run/), a fully autonomous software engineering system.** My background includes Shopify, Amazon, and Boulevard. I spent about a decade at Shopify, working across its systems and infrastructure as it grew from roughly 50 engineers to a company of more than 11,000 people.
 
 ### Descant
 
 [![Descant — 86.59% on SWE-bench Pro.](https://descant.run/og-image.png)](https://descant.run/)
 
-Descant builds and improves entire codebases over sustained, long-horizon work, merge by merge. Starting from the goals and issues you make eligible in GitHub, it decomposes larger efforts into right-sized tasks, plans and implements changes, and moves small, focused pull requests through independent review. You set the scope, priorities, and merge rules.
+Descant builds and improves entire codebases, merge by merge. Starting with eligible GitHub issues, it decomposes larger goals into focused tasks, plans and implements changes, and carries small pull requests through independent review. You set the scope, priorities, and merge rules.
 
-As the work reveals missing requirements, unfinished edges, or technical debt, Descant captures them as follow-up issues and systematically works through those within its authorized scope. Each merge advances the product and leaves a stronger foundation for the next change. It continuously learns at both the repository and system level, carrying architectural decisions and lessons forward across the software development lifecycle. Disciplined engineering, review across models from different vendors, and code built for long-term maintenance are fundamental to that process.
+As work reveals missing requirements or technical debt, Descant files follow-up issues and works through those within its authorized scope. It continuously learns at the repository and system level, carrying decisions forward across long efforts. The aim is software built for long-term maintenance, with each merge leaving a stronger foundation for the next.
 
 Support for other issue trackers and repository hosts is on the roadmap.
 
@@ -18,28 +18,26 @@ Support for other issue trackers and repository hosts is on the roadmap.
 
 [Explore Descant and join the beta waitlist →](https://descant.run/)
 
-Autonomous engineering also needs a simple, vendor-agnostic way to understand what work depends on what. [**Issuegraph**](https://issuegraph.org/) is our open specification for expressing work dependencies and ordering inside existing issue trackers. [Read the specification →](https://github.com/autnmy/issuegraph)
+[**Issuegraph**](https://issuegraph.org/) is our open, vendor-agnostic specification for expressing work dependencies and ordering inside existing issue trackers. [Read the specification →](https://github.com/autnmy/issuegraph)
 
 ### The human side of autonomy
 
-We’re also building [**OH HAI**](https://ohhai.app/), a shared inbox where agents can reach a person with updates, decisions, and tasks—and receive an answer even after the original session has ended.
+We’re also building [**OH HAI**](https://ohhai.app/): a shared inbox where agents reach people with updates, decisions, and tasks, and answers survive the original session.
 
-It connects ephemeral agent sessions through a real-time, hub-and-spoke system. In environments with shell access, agents use the OH HAI CLI to maintain a server-sent events (SSE) connection; agents without shell access can communicate through the hosted MCP server. Agents can address one another across vendors and runtimes, while people retain a single place to supervise the work. It’s built on [**MA2H**](https://github.com/autnmy/ma2h-protocol), our open protocol for durable coordination between agent fleets and humans: routing messages, preserving decisions, and carrying answers across session lifetimes.
+Built on our open [**MA2H protocol**](https://github.com/autnmy/ma2h-protocol), it connects agent fleets and humans across vendors and runtimes. Agents communicate directly through a real-time hub, using the CLI for SSE connections or the hosted MCP server when shell access isn’t available. People retain one place to supervise, respond, and intervene.
 
-The aim is seamless delegation across vendors, with clear human authority, visibility, and a practical way to intervene. [Join the OH HAI TestFlight beta →](https://testflight.apple.com/join/PAVcSZEk)
+[Join the OH HAI TestFlight beta →](https://testflight.apple.com/join/PAVcSZEk)
 
 ### About the contribution graph
 
-I build with the next generation of Descant—an R&D version I use across projects and at increasing scale. **Approximately 40,000 GitHub contributions in four months, including nearly 10,000 in a six-day stretch.** September 2026 snapshot; includes private repository activity. That volume speaks to the scale and speed of development with Descant.
+I build with the next generation of Descant—an R&D version used across projects and at increasing scale. **Approximately 40,000 GitHub contributions in four months, including nearly 10,000 in a six-day stretch.** September 2026 snapshot; includes private repository activity.
 
-Descant combines explicit orchestration, disciplined engineering, and review across different vendors’ models. The lessons from that work feed directly into the product. I remain responsible for the technical design, architecture, engineering principles, and software I ship. That includes the boundaries between layers, the choice of design patterns, and the decision to establish protocols before building their implementations.
+The workflow combines explicit orchestration, disciplined engineering, and models from different vendors implementing, challenging, and reviewing work. Those lessons feed directly into Descant. I remain responsible for the architecture, engineering principles, and software I ship, including the decision to establish protocols before their implementations.
 
-The goal is useful products, maintainable systems, and foundations that work across model providers. Model diversity is part of how we improve the work: different models contribute implementations, challenge assumptions, and review one another’s decisions. Much of the product development happens in private; the public specifications and evaluation artifacts above offer a window into the approach.
-
-Alongside Descant itself, [OH HAI](https://ohhai.app/), [TriviaPot](https://apps.apple.com/us/app/triviapot/id6783994272), and [Buildwell](https://getbuildwell.com/) provide concrete product contexts for developing and evaluating this engineering workflow. We plan to share them as Descant case studies, including the engineering practices and lessons that carry back into Descant.
+Descant itself, [OH HAI](https://ohhai.app/), [TriviaPot](https://apps.apple.com/us/app/triviapot/id6783994272), and [Buildwell](https://getbuildwell.com/) are proving grounds for that work and future case studies. Much of development happens in private; the public specifications and evaluation artifacts above offer a window into the approach.
 
 ### Get in touch
 
-Autonomy is the company, and Descant is our main focus. I welcome conversations with teams interested in using it, people building dependable autonomous systems, and investors interested in this direction.
+I welcome conversations with prospective Descant users, people building dependable autonomous systems, and investors interested in this direction.
 
 [Descant](https://descant.run/) · [Autonomy on GitHub](https://github.com/autnmy) · [@timlayton](https://twitter.com/timlayton)
