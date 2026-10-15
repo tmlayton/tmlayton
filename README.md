@@ -6,7 +6,7 @@ Hi, I’m Tim. I’m building [Autonomy](https://github.com/autnmy): determinist
 
 ### Descant
 
-[![Descant — 86.59% on SWE-bench Pro.](https://descant.run/og-image.png)](https://descant.run/)
+[![Descant Soprano 7 — 82.3% on DeepSWE v1.1.](https://descant.run/og-image.png)](https://descant.run/)
 
 Descant builds and improves entire codebases, merge by merge. Starting with eligible GitHub issues, it decomposes larger goals into focused tasks, plans and implements changes, and carries small pull requests through independent review. You set the scope, priorities, and merge rules.
 
@@ -14,9 +14,11 @@ As work reveals missing requirements or technical debt, Descant files follow-up 
 
 Support for other issue trackers and repository hosts is on the roadmap.
 
-**Original published evaluation: 633 / 731 tasks resolved on SWE-bench Pro’s public split — 86.59%.** The [results repository](https://github.com/autnmy/descant-swebench-pro-results) contains patches, recorded grades, and evaluation instructions. The Descant runtime remains proprietary.
+**Original published evaluation (Descant Soprano 1, September 2026): 633 / 731 tasks resolved on SWE-bench Pro’s public split — 86.59%.** The [results repository](https://github.com/autnmy/descant-swebench-pro-results) contains patches, recorded grades, and evaluation instructions. The Descant runtime remains proprietary.
 
-[Explore Descant and join the beta waitlist →](https://descant.run/)
+**Latest evaluation: Descant Soprano 7, 82.3% on DeepSWE v1.1.**
+
+[Explore Descant and join the waitlist →](https://descant.run/)
 
 [**Issuegraph**](https://issuegraph.org/) is our open, vendor-agnostic specification for expressing work dependencies and ordering inside existing issue trackers. [Read the specification →](https://github.com/autnmy/issuegraph)
 
@@ -26,7 +28,7 @@ We’re also building [**OH HAI**](https://ohhai.app/): a shared inbox where age
 
 Built on our open [**MA2H protocol**](https://github.com/autnmy/ma2h-protocol), it connects agent fleets and humans across vendors and runtimes. Agents communicate directly through a real-time hub, using the CLI for SSE connections or the hosted MCP server when shell access isn’t available. People retain one place to supervise, respond, and intervene.
 
-[Join the OH HAI TestFlight beta →](https://testflight.apple.com/join/PAVcSZEk)
+[Join OH HAI on TestFlight →](https://testflight.apple.com/join/PAVcSZEk)
 
 ### About the contribution graph
 
