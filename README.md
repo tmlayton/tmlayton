@@ -43,3 +43,12 @@ Descant itself, [OH HAI](https://ohhai.app/), [TriviaPot](https://apps.apple.com
 I welcome conversations with prospective Descant users, people building dependable autonomous systems, and investors interested in this direction.
 
 [Descant](https://descant.run/) · [Autonomy on GitHub](https://github.com/autnmy) · [@timlayton](https://twitter.com/timlayton)
+
+<div align="center">
+  <a href="https://commit-history.com/tmlayton">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/tmlayton" />
+      <img alt="tmlayton's commit history" src="https://commit-history.com/embed/tmlayton" />
+    </picture>
+  </a>
+</div>
