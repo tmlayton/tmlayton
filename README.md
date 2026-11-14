@@ -16,7 +16,7 @@ Descant is a zero-config software factory with the goal of delivering high quali
 
 **Latest evaluation: Descant, 82.3% on DeepSWE v1.1.**
 
-[Explore Descant and join the waitlist →](https://descant.run/)
+[Explore Descant →](https://descant.run/)
 
 [**Issuegraph**](https://issuegraph.org/) is our open, vendor-agnostic specification for expressing work dependencies and ordering inside existing issue trackers. [Read the specification →](https://github.com/autnmy/issuegraph)
 
